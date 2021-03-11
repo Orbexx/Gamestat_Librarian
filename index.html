@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <title>Gamestat Librarian</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav" >
+		<div class="dropdown">
+			<a class="active" href="#home">Home</a>
+		</div>
+        <div class="dropdown">
+            <button class="dropbtn"> PS4
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Console</a>
+                <a href="#">Games</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> Xbox
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Console</a>
+                <a href="#">Games</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"> Nintendo
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Console</a>
+                <a href="#">Games</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Welcome to</h2>
+                    <h1>The Gamestat librarian</h1>
+                </div>
+                <div class="col-md-4 col-xl-2 mt-4">
+                    <a button class="btn bg-info text-white btn-lg" data-toggle="modal" data-target="#reserveModal">Reserve Campsite</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            }
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+<footer>
+
+</footer>
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"> </script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"> </script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
+
+</html>
