@@ -18,12 +18,16 @@
 <body>
     <nav class="navbar sticky-top navbar-expand-lg" id="myNavBar">
         <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation"><span
+                class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> PS4 <span class="sr-only"></span>
+                <li class="nav-item dropdown" id="playstationMenu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> PlayStation <span
+                            class="sr-only"></span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Console</a>
@@ -31,8 +35,9 @@
                         <a class="dropdown-item" href="#">Games</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Xbox 
+                <li class="nav-item dropdown" id="xboxMenu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Xbox
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Console</a>
@@ -40,8 +45,10 @@
                         <a class="dropdown-item" href="#">Games</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Nintendo <span class="sr-only"></span>
+                <li class="nav-item dropdown"  id="nintendoMenu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Nintendo <span
+                            class="sr-only"></span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Console</a>
@@ -58,7 +65,7 @@
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+        </form>
     </nav>
 
     <header class="jumbotron jumbotron-fluid">
@@ -89,13 +96,25 @@
                 <img class="d-flex mr-3 img-thumbnail" src="img/wepc-snippet.PNG" alt="We-pc-statistics for PS4">
             </div>
         </div>
-            <div class="row" id="overview">
-                <div class="col-sm-6 mx-auto">
-                    <div class="text-center">
+        <div class="row" id="overview">
+            <div class="col-sm-6 mx-auto">
+                <div class="text-center">
                     <h3 class="header">Overview</h3>
                 </div>
             </div>
+            <div>
+                <div class="col-sm-4 text-center">
+                    <p id="overviewText" class="d-none d-sm-block">The Three players in the console market, Sony, Microsoft, and Nintendo, continue to bring out impressive consoles and games each and every year, and the healthy competition between them helps to foster some great results. This current-gen has seen Sony's PS4 take the lead with 46.7% of the market share, followed by the Nintendo Switch at 36.9%, and then Microsoft's XBOX One 16.4%</p>
+                    <p>
+                        <em>Sources: VGCharts, NewZoo</em>
+                    </p>
+                </div>
+                <div class="col-sm-7">
+                    <img class="d-flex mr-3 img-thumbnail" src="img/overview-pic.png" alt="We-pc-statistics for PS4">
+                </div>
+            </div>
         </div>
+    
 
 </body>
 
@@ -117,16 +136,14 @@
                         class="fa fa-instagram"></i></a>
                 <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
                         class="fa fa-facebook"></i></a>
-                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
-                        class="fa fa-twitter"></i></a>
-                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
-                        class="fa fa-youtube"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
             </div>
             <div class="col-sm-4 text-center">
                 <a role="button" class="btn btn-link" href="tel:+12094378243"><i class="fa fa-phone"></i>
-                    1-206-555-1234</a><br />
-                <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
-                        class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+                    1-206-274-8912</a><br />
+                <a role="button" class="btn btn-link" href="mailto:librarian@hotmail.co"><i class="fa fa-envelope-o"></i>
+                    librarian@hotmail.co</a>
             </div>
         </div>
     </div>
